@@ -5,7 +5,7 @@ import { useProductStore } from "../store/useProductStore";
 function ProductCard({ product }) {
   const { deleteProduct } = useProductStore();
   return (
-    <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300 cursor-pointer group">
+    <div className="card bg-base-100 shadow-xl hover:shadow-2xl duration-700 cursor-pointer group hover:-translate-y-2 transition-all">
       {/* PRODUCT IMAGE */}
       <figure className="relative pt-[56.25%]">
         <img
